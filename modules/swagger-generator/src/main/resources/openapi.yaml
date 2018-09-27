@@ -10,8 +10,6 @@ info:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
 tags:
-- name: developers
-  description: Operations available to developers
 - name: clients
 - name: servers
 paths:
@@ -96,6 +94,9 @@ paths:
                 items:
                   type: string
   "/options":
+    tags:
+    - clients
+    - servers
     get:
       x-swagger-router-controller: io.swagger.v3.generator.online.GeneratorController
       operationId: listOptions

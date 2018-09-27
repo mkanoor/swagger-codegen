@@ -161,7 +161,6 @@ public class Rails5ServerCodegen extends DefaultCodegen implements CodegenConfig
         supportingFiles.add(new SupportingFile("apple-touch-icon.png", publicFolder, "apple-touch-icon.png"));
         supportingFiles.add(new SupportingFile("favicon.ico", publicFolder, "favicon.ico"));
         supportingFiles.add(new SupportingFile("robots.txt", publicFolder, "robots.txt"));
-        supportingFiles.add(new SupportingFile("robots.txt", publicFolder, "robots.txt"));
         supportingFiles.add(new SupportingFile("test_helper.rb", testFolder, "test_helper.rb"));
         supportingFiles.add(new SupportingFile(".keep", cacheFolder, ".keep"));
         supportingFiles.add(new SupportingFile(".keep", pidFolder, ".keep"));
